@@ -1,0 +1,588 @@
+body {
+  background-color: #dedede;
+  font-family: "Roboto", sans-serif;
+}
+
+#Button {
+  font-size: 17px;
+  height: 50px;
+}
+
+#containerRight {
+  background-color: white;
+  width: 380px;
+  height: 480px;
+  padding: 30px 50px 50px 50px;
+  /* box-shadow: 10px 10px 5px gray; */
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border: 1px solid #003478;;
+}
+#containerRight2 {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  /* box-shadow: 10px 10px 5px gray; */
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#logoImg {
+  width: 150px;
+  margin-bottom: -5%;
+}
+#regTextTwo {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+#regType {
+  font-family: "Roboto", sans-serif;
+}
+#contentContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #EFEFF1;
+}
+
+#regTextMain {
+  color: rgba(241, 171, 21, 1);
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+#regTextThree {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+#regTextTwo {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+#mobileText {
+  font-weight: 60x0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgba(52, 52, 52, 1);
+}
+
+.rounded {
+  background-color: rgba(241, 171, 21, 1);
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.rounded:focus {
+  box-shadow: none !important ;
+}
+
+#contentDiv {
+  border-right: 2px solid rgba(161, 161, 161, 1);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.icons {
+  font-size: 30px;
+  color: rgba(84, 84, 84, 1);
+}
+.enrolText {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(84, 84, 84, 1);
+}
+.circles {
+  position: relative;
+  right: -9px;
+  font-size: 14px;
+  top: -6px;
+  color: rgba(161, 161, 161, 1);
+}
+.circleChecked {
+  position: relative;
+  right: -9px;
+  top: -6px;
+  color: green;
+  background: white;
+}
+#captureWaysOne {
+  margin-left: -25px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+#captureWays {
+  width: 100%;
+  height: 70%;
+}
+#captureWaysTwo {
+  width: 100%;
+  height: 80%;
+}
+#message {
+  background-color: white;
+  width: 75%;
+  border: 1.5px solid rgba(28, 153, 99, 1);
+}
+#messageImg {
+  margin-top: 20px;
+}
+
+#messageText {
+  color: rgba(28, 153, 99, 1);
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+#docsContainer {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.docImg {
+  width: 130px;
+  height: 100px;
+}
+.imgPerson {
+  height: 100px;
+  width: 100px;
+}
+.docText {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(72, 72, 72, 1);
+}
+.rightMessage {
+  display: none;
+}
+.row {
+  font-size: 14px;
+}
+#personImg {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+.leftContent {
+  margin-bottom: 3px;
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgba(112, 112, 112, 1);
+}
+#personGender {
+  font-size: 12px;
+  color: rgba(112, 112, 112, 1);
+}
+.nomargin {
+  margin-top: 0px !important;
+}
+.inputBoxes {
+  margin-bottom: 3px;
+  height: 30px;
+  font-size: 12px;
+  color: rgba(112, 112, 112, 1);
+}
+.pencil {
+  font-size: 12px;
+  height: 30px;
+}
+#ajdCheckbox {
+  font-size: 13px;
+
+  margin-bottom: 10px;
+}
+.textwarning {
+  color: rgba(241, 171, 21, 1);
+}
+#fingerScanning {
+  height: 59.5%;
+}
+.rounded {
+  font-weight: 600;
+}
+#scanText {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(84, 84, 84, 1);
+}
+#scanImg {
+  width: 70%;
+  height: 50%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#fingerDetails {
+  font-size: 13px;
+  text-align: center;
+  color: rgba(84, 84, 84, 1);
+}
+#fingerImg {
+  margin-top: 25px;
+  height: 90px;
+  width: 80px;
+}
+#line {
+  width: 200px;
+  border-top: 2px solid gray;
+}
+#print {
+  margin-top: 25px;
+  height: 80;
+  width: 80px;
+  margin-bottom: 30px;
+}
+#successContent {
+  height: 80%;
+  margin-top: 50px;
+}
+#successText {
+  text-align: center;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(28, 153, 99, 1);
+  width: 70%;
+  font-weight: 600;
+}
+#successImg {
+  margin-top: 30px;
+  width: 90%;
+  height: 45%;
+}
+#enrolDetails {
+  text-decoration: none;
+}
+#passwordContainer {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 47px;
+}
+#pswText {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgba(52, 52, 52, 1);
+  margin-bottom: 10px;
+}
+.signPad {
+  border: 1px solid gray;
+  width: 100%;
+  height: 45%;
+  border-radius: 3px;
+}
+#FingerPrintBox {
+  width: 100%;
+  position: relative;
+  top: 20%;
+}
+#radios {
+  color: rgba(52, 52, 52, 1);
+}
+
+#errorText {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+#colouredText {
+  color: rgba(241, 171, 21, 1);
+  font-family: "Roboto", sans-serif;
+}
+.errorIcon {
+  font-size: 40px;
+  color: rgba(176, 0, 32, 1);
+}
+#errorMessage {
+  border: 2px solid rgba(176, 0, 32, 1);
+  padding: 15px;
+}
+#actionsBox {
+  font-size: 12.5px;
+  display: flex;
+  justify-content: space-between;
+}
+#actionsBoxTwo {
+  font-size: 12.5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#actionsBox a {
+  color: rgba(241, 171, 21, 1);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+#actionsBoxTwo a {
+  color: rgba(241, 171, 21, 1);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+#errorMessageTwo {
+  color: rgba(52, 52, 52, 1);
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+#messageTwo {
+  background-color: white;
+  width: 85%;
+  border: 1.5px solid rgba(176, 0, 32, 1);
+  padding: 10px 0px 10px 0px;
+}
+#messageThree {
+  background-color: white;
+  width: 75%;
+  border: 1.5px solid rgba(52, 52, 52, 1);
+  padding: 15px 15px 0px 15px;
+}
+
+#accountBox {
+  display: flex;
+}
+#accountLeft {
+  width: 70%;
+}
+#topContent {
+  color: rgba(241, 171, 21, 1);
+  font-size: 13px;
+  line-height: 0px;
+}
+#bottomContent {
+  font-size: 20px;
+  color: rgba(52, 52, 52, 1);
+}
+/* 
+    open Account css
+    */
+
+#containerOne {
+  background-color: rgba(241, 171, 21, 1);
+  width: 20vw;
+  color: white;
+  height: 100vh;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+}
+#containerTwo {
+  background-color: white;
+  width: 80vw;
+  height: 100vh;
+  padding: 20px 20px 5px 20px;
+}
+.width {
+  width: 31vw;
+}
+.buttonsContainer {
+  width: 2%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+#authenticateModesBox {
+  display: flex;
+  justify-content: space-between;
+}
+#individualModes {
+  background-color: rgba(241, 171, 21, 1);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  box-shadow: 1px 1px 1px gray;
+}
+#modeOneImg {
+  margin-top: 15px;
+  height: 40px;
+  width: 40px;
+}
+#modeTwoImg {
+  margin-top: 17.5px;
+  height: 35px;
+  width: 35px;
+}
+#modeThreeImg {
+  margin-top: 25px;
+  height: 20px;
+}
+#modeText {
+  font-size: 12.5px;
+}
+#welcomeText {
+  color: orange;
+  margin-top: 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* 
+     
+    
+          media query css starts
+
+
+     */
+
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #containerRight {
+    /* border-bottom-right-radius: 0px; */
+    /* border-top-right-radius: 0px; */
+    box-shadow: 0px 0px 2px gray;
+    height: 100vh;
+    padding: 30px 10px;
+  }
+
+  .homeContainer {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 108vw 40vh;
+  }
+  #contentContainer {
+    margin-top: 0px;
+  }
+  #contentDiv {
+    border-right: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 80%;
+  }
+  #regTextMain {
+    color: orange;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .circles {
+    position: relative;
+  }
+  #personImg {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+  }
+  #ajdCheckbox {
+    margin-top: 20px;
+  }
+  #docsContainer {
+    margin-top: 15px;
+  }
+  .docImg {
+    width: 40vw;
+  }
+  #docsContainer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #messageImg {
+    margin-top: 0px;
+  }
+  .rightMessage {
+    display: block;
+    margin-top: 20px;
+  }
+  #scanText {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #scanImg {
+    width: 70%;
+    height: 45%;
+    margin-top: 90px;
+  }
+  #fingerDetails {
+    margin-top: 110px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #successContent {
+    height: 70%;
+    margin-top: 90px;
+  }
+  #successImg {
+    margin-top: 30px;
+    width: 85%;
+    height: 45%;
+  }
+  #successText {
+    text-align: center;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgba(28, 153, 99, 1);
+    width: 70%;
+    font-weight: 600;
+  }
+  .width {
+    width: 50vw;
+  }
+  .buttonsContainer {
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #signPadBox {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #captureWaysOne {
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+#newBG {
+  background: url("../assets/bg-image.png");
+  background-size: 100% 100%;
+  height: 100vh;
+}
+#buttonss {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 20px;
+}
+#adminButtons {
+  width: 250px;
+  border-radius: 16px;
+}
+
+#sledrop {
+  width: 60%;
+}
+
+#fpssword{
+
+  padding-top: 8px;
+  color: #1A73E8;
+}
